@@ -1,3 +1,27 @@
+
+
+# Project Description:
+
+# Objective- creating an app named service scheduling which intern assigns work for technicians according to the scheduled excel table. features expected-
+
+1. Simple Scheduling: everything within the app should be as simple and understandable.
+
+2. Flexible Calendar: The technician should be able to check out his next service. already created appointment and recurring.
+
+3. Automatic Messages/Notification: automatic alerts, notification, text messages pop up an hour before up coming task.
+
+4. Roster Management: To manage technicians schedules, availability, leaves and working shift.
+
+5. Mobile friendliness (for android): all user's reminders, notifications and other adjustments should be available.
+
+6. GPS tracking.
+
+7. Picture uploading option
+
+8. digital signature from clients.
+
+9. client feedback
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
