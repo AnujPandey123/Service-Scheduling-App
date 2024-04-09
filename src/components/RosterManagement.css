@@ -1,0 +1,21 @@
+.roster-management-container {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .roster-management-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .roster-management-item {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .roster-management-item:hover {
+    background-color: #495057;
+  }
+  

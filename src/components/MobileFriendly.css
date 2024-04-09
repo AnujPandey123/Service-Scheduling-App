@@ -1,0 +1,17 @@
+.mobile-friendly-container {
+    background-image: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .mobile-friendly-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .mobile-friendly-content {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  

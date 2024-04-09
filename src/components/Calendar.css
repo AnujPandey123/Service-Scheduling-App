@@ -1,0 +1,84 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calendar-days-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.calendar-date-box {
+  width: 12%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.calendar-date-box:hover {
+  background-color: #f5f5f5;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.has-event {
+  background-color: #ffcccc;
+}
+
+.event-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0 3px;
+  border-radius: 50%;
+}
+
+.scheduled-events-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.scheduled-events-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scheduled-events-container li {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.scheduled-events-container li p {
+  margin: 0;
+}
+
+.scheduled-events-container li:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,63 @@
+nav {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display links horizontally */
+  }
+  
+  li {
+    margin-right: 20px; /* Add spacing between links */
+  }
+  
+  li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+  }
+  
+  a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+  
+  a:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+  @media only screen and (max-width: 600px) {
+    
+    nav {
+      background-color: #343a40; /* Dark background color */
+    }
+    
+    ul {
+      list-style-type: none; /* Remove default list styles */
+      margin: 0;
+      padding: 0;
+      display: flex; /* Display links horizontally */
+    }
+    
+    li {
+      margin-right: 20px; /* Add spacing between links */
+    }
+    
+    li:last-child {
+      margin-right: 0; /* Remove margin from the last link */
+    }
+    
+    a {
+      color: #fff; /* White text color */
+      text-decoration: none; /* Remove underline */
+      transition: color 0.3s ease; /* Smooth transition for text color */
+    }
+    
+    a:hover {
+      color: #007bff; /* Change text color on hover */
+    }
+    .lsit{
+      max-width:350px;
+      max-height: 450px;
+    }
+  }
