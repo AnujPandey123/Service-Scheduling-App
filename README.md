@@ -23,7 +23,7 @@
 
 9. client feedback
 
-# Live Demo : https://service-scheduling-dc6hu49px-anuj-pandeys-projects.vercel.app/
+# Live Demo : [https://service-scheduling-dc6hu49px-anuj-pandeys-projects.vercel.app/](https://service-scheduling-app.vercel.app/)
 
 # Getting Started with Create React App
 
